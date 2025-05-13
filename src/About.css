@@ -1,0 +1,43 @@
+
+.about-us {
+  padding: 20px;
+  direction: rtl;
+  font-family: Arial, sans-serif;
+  background-color: rgb(201, 172, 129);
+}
+
+.about-us h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-us-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap; 
+}
+.text{
+  padding-top: 200px;
+
+}
+
+.about-us-text {
+  flex: 1;
+  min-width: 300px;
+  line-height: 1.8;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.about-us-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-us-image img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+}
